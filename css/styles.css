@@ -1,0 +1,184 @@
+/* Корневые элементы */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* Базовые элементы */
+    .layer{
+         left: 0px;
+         top: 0px;
+         position: relative;
+         margin-left: auto;
+         margin-right: auto;
+         width: 1000px;
+         height: 1200px;
+         overflow: hidden;
+         z-index: 0;
+    }
+
+    .background {
+        height: 2000px;
+        overflow: scroll;
+    }
+
+    .jokes {
+        position: relative;
+        margin: 30px;
+        height: 170px;
+    }
+
+    .share {
+        background: #fbaf5d;
+        border: 2px solid black;
+        position: fixed;
+        right: 0;
+        top: 500px;
+        height: 70px;
+        width: 80px;
+    }
+
+
+/* Блоки */
+    .block1 {
+        position: absolute;
+        margin: 200px;
+
+        height: 750px;
+        width: 520px;
+        
+        background: #ebebeb;
+        border: 2px solid black;
+
+        z-index: 5;
+    }
+
+    .block2 {
+        position: absolute;
+        margin: 220px;
+
+        height: 750px;
+        width: 520px;
+        
+        background: #cccccc;
+        border: 2px solid black;
+        
+        z-index: 3;
+    }
+
+    .block3 {
+        position: absolute;
+        margin: 240px;
+
+        height: 750px;
+        width: 520px;
+        
+        background: #acacac;
+        border: 2px solid black;
+        
+        z-index: 1;
+    }
+
+
+/* Закладки */    
+    .bookmark1 {
+        position: absolute;
+        left: 694px;
+        top: 238px;
+
+        width: 130px;
+        height: 32px;
+
+        background: #f68e56;
+        border-radius: 0 10px 10px 0;
+        border: 2px solid black;        
+
+        z-index: 6;
+    }
+
+    .bookmark2 {
+        position: absolute;
+        left: 709px;
+        top: 261px;
+
+        width: 102px;
+        height: 32px;
+
+        background: #39b54a;
+        border-radius: 10px;
+        border: 2px solid black;
+        
+        z-index: 4;
+    }
+
+    .bookmark3 {
+        position: absolute;
+        left: 696px;
+        top: 285px;
+
+        width: 102px;
+        height: 32px;
+
+        background: #00aeef;
+        border-radius: 10px;
+        border: 2px solid black;
+
+        z-index: 2;
+    }
+
+
+/* Текст */
+    .text {
+        font-size: 12px;
+        font-family: "Myriad Pro";
+        line-height: 1.2;
+        text-align: left;
+        margin: 30px;
+    }
+
+    .text2 {
+        font-size: 18px;
+        font-family: "Myriad Pro";
+        line-height: 1.2;
+        margin: 30px;
+        margin-top: 50px
+    }
+
+    .text3 {
+        font-size: 9px;
+        font-family: "Myriad Pro";
+        line-height: 1.2;
+        margin: 30px;
+    }
+
+    .textt {
+        font-size: 24px;
+        font-family: "Myriad Pro";
+        line-height: 1.2;
+        margin: 30px;
+    }
+
+
+/* Изображения */
+    .leftimg {
+        float: left;
+        margin: 0 20px 0 0;
+    }
+
+    .rightimg {
+        float: right;
+    }
+
+    .imgcol{
+        width: 194px;
+    }
+
+    .imgcol.left{
+        float: left;
+    }
+
+    .imgcol.right{
+        float: right;
+    }
+
